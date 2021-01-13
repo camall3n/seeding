@@ -65,3 +65,13 @@ seeding.seed(0, gym, env, other_env)
 ```
 
 Note: the default behavior also seeds the env.action_space; to disable this behavior, use `deterministic=False` as described above.
+
+# Compatibility
+Seeding currently works with the following libraries:
+- random (built-in module)
+- numpy
+- gym
+- torch
+- tensorflow (untested)
+
+If there's another library you'd like it to support, feel free to create an issue for it!
